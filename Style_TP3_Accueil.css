@@ -1,6 +1,28 @@
 header{
-    display: flex;
     background-color: #242444;
+}
+
+.imgheader{
+    display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     align-items: center;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+body{
+    background-color: #082050;
+}
+
+main{
+    color: white;
+}
+
+aside{
+    color: white;
 }

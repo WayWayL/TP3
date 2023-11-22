@@ -1,0 +1,6 @@
+header{
+    display: flex;
+    background-color: #242444;
+    flex-direction: row;
+    align-items: center;
+}

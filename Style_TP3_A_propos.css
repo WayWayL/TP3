@@ -17,3 +17,22 @@ Header{
     nav img {
         margin-right: 10px; /* Espacement entre les icônes */
     }
+
+    body{
+        background-color: #082050;
+    }
+    section{
+        background-color: white;
+    }
+    h1{
+        text-align: center;
+        color: #242444;
+    }
+    h2{
+        text-align: center;
+        color: #242444;
+    }
+    p{
+        text-align: center;
+        color: #009FD1;
+    }

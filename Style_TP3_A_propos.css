@@ -36,3 +36,10 @@ Header{
         text-align: center;
         color: #009FD1;
     }
+    article{
+        background-color: antiquewhite;
+        width: 400px;
+    }
+    .Groupe{
+        background-color: white;
+    }

@@ -1,0 +1,19 @@
+Header{
+    background-color:#242444;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    .logo {
+        order: 2; /* Pour placer le logo à droite */
+    }
+    
+    nav {
+        order: 1; /* Pour placer la navigation à gauche */
+    }
+    
+    nav img {
+        margin-right: 10px; /* Espacement entre les icônes */
+    }

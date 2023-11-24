@@ -41,13 +41,14 @@ Header{
         width: 345px; 
         height: 399px;
     }
-    td{
+    .Nom{
         background-color: white;
         padding: 20px;
     }
-    table {
+    .Presentation {
         border-collapse: collapse;
         text-align: center;
+        width: 100%;
     }
     em{
         color: white;
@@ -60,8 +61,16 @@ Header{
         padding: 10px;
     }
     th {
-        width: 20%; /* Ajustez la largeur selon vos besoins */
-        background-color: lightgray; /* Pour visualiser la répartition */
+        width: 20%;
+        color:white; 
+        text-align: center;
+        padding: 10px;
+    }
+    .bas_page{
+        width: 100%;
+    }
+    .Information{
+        color: white;
         text-align: center;
         padding: 10px;
     }

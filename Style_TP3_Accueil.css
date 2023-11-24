@@ -1,5 +1,20 @@
 header{
-    background-color: #242444;
+    background-color:#242444;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+}
+.logo {
+    order: 2; /* Pour placer le logo à droite */
+}
+
+nav {
+    order: 1; /* Pour placer la navigation à gauche */
+}
+
+nav img {
+    margin-right: 10px; /* Espacement entre les icônes */
 }
 
 .imgheader{
@@ -25,4 +40,25 @@ main{
 
 aside{
     color: white;
+}
+.Information{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.bas_page{
+    width: 100%;
+}
+th {
+    width: 20%;
+    color:white; 
+    text-align: center;
+    padding: 10px;
+}
+footer{
+    background-color:#242444;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }

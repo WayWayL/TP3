@@ -37,9 +37,31 @@ Header{
         color: #009FD1;
     }
     article{
-        background-color: antiquewhite;
-        width: 400px;
+        background-color: #009FD1;
+        width: 345px; 
+        height: 399px;
     }
-    .Groupe{
+    td{
         background-color: white;
+        padding: 20px;
+    }
+    table {
+        border-collapse: collapse;
+        text-align: center;
+    }
+    em{
+        color: white;
+    }
+    footer{
+        background-color:#242444;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    th {
+        width: 20%; /* Ajustez la largeur selon vos besoins */
+        background-color: lightgray; /* Pour visualiser la répartition */
+        text-align: center;
+        padding: 10px;
     }

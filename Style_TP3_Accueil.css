@@ -17,12 +17,7 @@ nav img {
     margin-right: 10px; /* Espacement entre les icônes */
 }
 
-.imgheader{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-}
+
 
 nav{
     display: flex;
@@ -30,17 +25,56 @@ nav{
     flex-wrap: nowrap;
 }
 
+/* header image */ 
+.imgheader{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-grow: 20%;
+}
+#img1{
+ order: 1;
+}
+#img2{
+ order: 2;
+}
+#img3{
+ order: 3;
+}
+#img4{
+ order: 4;
+}
+#img5{
+ order: 5;
+}
+#img6{
+ order: 6;
+}
+
+/* corps de la page */
 body{
     background-color: #082050;
 }
 
-main{
-    color: white;
+.page{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 39px;
+
 }
 
-aside{
+/* video */ 
+#gauche{
     color: white;
+    order: 1;
+    margin-right: 34px;
 }
+ /* texte */
+#droite{
+    color: white;
+    order: 2;
+}
+
+
 .Information{
     color: white;
     text-align: center;

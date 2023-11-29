@@ -25,11 +25,13 @@ nav{
     flex-wrap: nowrap;
 }
 
-/* header image */ 
+/* image */ 
 .imgheader{
     display: flex;
-    flex-wrap: nowrap;
-    flex-grow: 20%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 #img1{
  order: 1;
@@ -50,15 +52,30 @@ nav{
  order: 6;
 }
 
+
+
 /* corps de la page */
 body{
     background-color: #082050;
+    width: auto;
+    height: auto;
+}
+
+h2{
+    align-content: center;
+}
+.divligne{
+    border-bottom: solid 3px #fff;
 }
 
 .page{
     display: flex;
-    flex-wrap: nowrap;
-    margin-left: 39px;
+    flex-wrap: wrap;
+    margin: 2%;
+    justify-content: space-between;
+
+    font-size: 32px;
+    font-weight: bold;
 
 }
 
@@ -67,11 +84,14 @@ body{
     color: white;
     order: 1;
     margin-right: 34px;
+    justify-content: left;
 }
  /* texte */
 #droite{
     color: white;
     order: 2;
+    flex-direction: column;
+    justify-content: right;
 }
 
 

@@ -33,17 +33,23 @@ Header{
         color: #242444;
     }
     p{
-        text-align: center;
-        color: #009FD1;
+        text-align:left;
+        color: #676b73;
+        font-size: larger;
     }
-    article{
+   .container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    border:50px;
+    justify-content:space-around;
+
+   }
+    .Nom{
         background-color: #009FD1;
         width: 345px; 
         height: 399px;
-    }
-    .Nom{
-        background-color: white;
-        padding: 20px;
     }
     .Presentation {
         border-collapse: collapse;
@@ -52,6 +58,7 @@ Header{
     }
     em{
         color: white;
+        font-size: large;
     }
     footer{
         background-color:#242444;

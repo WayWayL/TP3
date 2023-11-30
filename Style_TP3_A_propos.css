@@ -48,6 +48,7 @@ Header{
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content:space-around;
    }
    .Colonne2{
     display:flex;
@@ -69,13 +70,21 @@ Header{
     flex-direction: column;
     flex-wrap: wrap;
    }
-   .Logo-image{
+   .Colonne1{
     color: white;
    }
-   .Information{
+   .Colonne2{
     color: white;
    }
-  
+   .Colonne3{
+    color: white;
+   }
+   .Colonne4{
+    color: white;
+   }
+   .Colonne5{
+    color: white;
+   }
     .Nom{
         background-color: #009FD1;
         width: 345px; 

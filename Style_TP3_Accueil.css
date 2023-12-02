@@ -6,10 +6,12 @@ header{
         padding: 10px;
 }
 .logo {
+    display: flex;
     order: 2; /* Pour placer le logo à droite */
 }
 
 nav {
+    display: flex;
     order: 1; /* Pour placer la navigation à gauche */
 }
 
@@ -32,6 +34,8 @@ nav{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    width: 240; 
+    height: 105;
 }
 #img1{
  order: 1;
@@ -76,7 +80,6 @@ h2{
 
     font-size: 32px;
     font-weight: bold;
-
 }
 
 /* video */ 
@@ -86,12 +89,53 @@ h2{
     margin-right: 34px;
     justify-content: left;
 }
+.vid{
+    height: 440;
+    width: 794;
+}
+
  /* texte */
 #droite{
     color: white;
     order: 2;
     flex-direction: column;
     justify-content: right;
+}
+
+
+.EsportSportbar{
+    display: flex;
+    background-color: white;
+    color: #009FD1;
+    height: 119;
+    width: 100%;
+    font-size: large;
+    flex-wrap: nowrap;
+
+}
+#Sport{
+    order: 1;
+    width: 446;
+    height: 83;
+    justify-content: center;
+    justify-content: middle;
+    background-color: white;
+    color: #009FD1;
+    height: 119;
+    width: 720px ;
+    font-size: large;
+}
+#Esport{
+    order: 2;
+    width: 446;
+    height: 83;
+    justify-content: center;
+    justify-content: middle;
+    background-color: white;
+    color: #009FD1;
+    height: 119;
+    width: 720px ;
+    font-size: large;
 }
 
 

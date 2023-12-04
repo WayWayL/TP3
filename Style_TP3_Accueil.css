@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Tp3Font;
+    src: url(GlacialIndifference-Regular.otf);
+}
+
 header{
     background-color:#242444;
         display: flex;
@@ -63,6 +68,9 @@ body{
     background-color: #082050;
     width: auto;
     height: auto;
+
+    font-family: Tp3Font;
+
 }
 
 h2{
@@ -76,7 +84,6 @@ h2{
     display: flex;
     flex-wrap: nowrap;
     margin: 1%;
-    justify-content: space-between;
     font-size: 32px;
     font-weight: bold;
 }
@@ -97,14 +104,14 @@ h2{
     color: white;
     order: 2;
     flex-direction: column;
-    justify-content: right;
+    padding-left: 5%;
 }
 
 
 .EsportSportbar{
     display: flex;
-    background-color: white;
-    color: #009FD1;
+    background-color: #009FD1;
+    color: white;
     height: 119;
     width: 100%;
     font-size: xx-large;
@@ -118,8 +125,6 @@ h2{
     height: 83;
     justify-content: center;
     justify-content: middle;
-    background-color: white;
-    color: #009FD1;
     height: 119;
     width: 720px ;
     font-size: xx-large;
@@ -130,8 +135,6 @@ h2{
     height: 83;
     justify-content: center;
     justify-content: middle;
-    background-color: white;
-    color: #009FD1;
     height: 119;
     width: 720px ;
     font-size: xx-large;

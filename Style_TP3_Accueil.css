@@ -139,22 +139,61 @@ h2{
     width: 720px ;
     font-size: xx-large;
 }
-
-
-.Information{
+   .Colonne1{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:space-around;
+   }
+   .Colonne2{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   }
+   .Colonne3{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   }
+   .Colonne4{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   }
+   .Colonne5{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   }
+   .Colonne1{
     color: white;
-    text-align: center;
-    padding: 10px;
-}
-.bas_page{
-    width: 100%;
-}
-th {
-    width: 20%;
-    color:white; 
-    text-align: center;
-    padding: 10px;
-}
+   }
+   .Colonne2{
+    color: white;
+   }
+   .Colonne3{
+    color: white;
+   }
+   .Colonne4{
+    color: white;
+   }
+   .Colonne5{
+    color: white;
+   }
+    .Nom{
+        background-color: #009FD1;
+        width: 345px; 
+        height: 399px;
+    }
+    .Presentation {
+        border-collapse: collapse;
+        text-align: center;
+        width: 100%;
+    }
+    em{
+        color: white;
+        font-size: large;
+    }
 footer{
     background-color:#242444;
     display: flex;
@@ -162,3 +201,35 @@ footer{
     align-items: center;
     padding: 10px;
 }
+.bas_page{
+    width: 100%;
+}
+.subscription {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .subscription h3 {
+    margin-bottom: 10px;
+  }
+  
+  input[type="email"] {
+    width: 70%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 8px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }

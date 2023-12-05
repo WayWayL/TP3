@@ -53,7 +53,12 @@
         <div class="Colonne1">
                 <div class="Logo-image"> <img src ="Image/Header_Footer_image/Header/Logo Technologie et Jeu Bleu.png" alt="Logo" width="60px" height="30px"></div>
                 <div class="Logo-image">Abonnez-vous maintenant</div>
-                <div class="Logo-image"><img src="Image/Header_Footer_image/Footer/enveloppe (1).png" width="15px" height="15px"> <em>Entrer votre email</em></div>
+                <div class="subscription">
+                    <form action="subscribe.php" method="post">
+                      <input type="email" id="footerEmail" name="email" placeholder="Entrez votre adresse e-mail" required>
+                      <button type="submit">S'abonner</button>
+                    </form>
+                  </div>
             </div>
             <div class="Colonne2">
                 <div class="ligne1"><strong>Information</strong> </div>

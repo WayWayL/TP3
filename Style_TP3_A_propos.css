@@ -20,6 +20,7 @@ nav img {
 
 body{
     background-color: #082050;
+    font-family: Tp3Font;
     }
 section{
     background-color: white;
@@ -153,3 +154,7 @@ button {
 button:hover {
         background-color: #45a049;
       }
+      @font-face {
+        font-family: Tp3Font;
+        src: url(GlacialIndifference-Regular.otf);
+    }

@@ -43,6 +43,12 @@ body{
     align-items: center;
     width: 240; 
     height: 105;
+    transition: transform .1s;
+}
+img:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
 }
 #img1{
  order: 1;
@@ -287,7 +293,7 @@ body{
 .lien{
     color:white;
   }
-  footer{
+footer{
     background-color:#242444;
     display: flex;
     justify-content: space-between;
@@ -364,3 +370,4 @@ button {
 button:hover {
     background-color: #45a049;
 }
+

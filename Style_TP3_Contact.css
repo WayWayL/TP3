@@ -1,87 +1,119 @@
+@font-face {
+  font-family: Tp3Font;
+  src: url(GlacialIndifference-Regular.otf);
+}
+
 Header{
-    background-color:#242444;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px;
-    }
-    body{
-        background-color: #082050;
-    }
-    .logo {
-        order: 2; /* Pour placer le logo à droite */
-    }
-    nav {
-        order: 1; /* Pour placer la navigation à gauche */
-    }
+ background-color:#242444;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 10px;
+}
     
-    nav img {
-        margin-right: 10px; /* Espacement entre les icônes */
-    }
-    .container {
-        width: 50%;
-        margin: 20px auto;
-        background-color: #009FD1;
-        padding: 20px;
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      }
+body{
+ background-color: #082050;
+
+}
+    
+.logo {
+ order: 2; /* Pour placer le logo à droite */
+}
+    
+nav {
+ order: 1; /* Pour placer la navigation à gauche */
+}
+    
+nav img {
+ margin-right: 10px; /* Espacement entre les icônes */
+}
+    
+.container {
+ width: 50%;
+ margin: 20px auto;
+ background-color: #009FD1;
+ padding: 20px;
+ border-radius: 8px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ font-family: Tp3Font;
+}
+
+div{
+  font-family: Tp3Font;
+}
+.lignevide{
+  padding: 1%;
+}
       
-      h1 {
-        text-align: center;
-      }
+h1 {
+ text-align: center;
+}
       
-      .form-group {
-        margin-bottom: 15px;
-      }
+.form-group {
+ margin-bottom: 15px;
+}
       
-      label {
-        display: block;
-        font-weight: bold;
-      }
+label {
+ display: block;
+ font-weight: bold;
+}
       
-      input[type="text"],
-      input[type="email"],
-      textarea {
-        width: 100%;
-        padding: 8px;
-        border-radius: 5px;
-        border: 1px solid #ccc;
-      }
+input[type="text"],
+input[type="email"],
+textarea {
+ width: 80%;
+ padding: 8px;
+ border-radius: 5px;
+ border: 1px solid #ccc;
+}
       
-      button {
-        padding: 10px 20px;
-        background-color: #4caf50;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-      }
+button {
+ padding: 10px 20px;
+ background-color: #4caf50;
+ color: white;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+}
+
+.buttonreset{
+  padding: 10px 20px;
+  background-color: #af4c4c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
       
-      button:hover {
-        background-color: #45a049;
-      }
-    .Colonne1{
-    display:flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content:space-around;
-   }
-   .Colonne2{
-    display:flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-   }
-   .Colonne3{
-    display:flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-   }
-   .Colonne4{
-    display:flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-   }
+button:hover {
+ background-color: #45a049;
+}
+  
+  
+.Colonne1{
+ display:flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ justify-content:space-around;
+}
+   
+.Colonne2{
+ display:flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+}
+   
+.Colonne3{
+ display:flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+}
+   
+.Colonne4{
+ display:flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+}
    .Colonne5{
     display:flex;
     flex-direction: column;

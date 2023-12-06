@@ -98,21 +98,27 @@ body{
 /* CALENDRIER */
 .calendrier1{
     display: flex;
+    justify-content: space-evenly;
 }
 .calendrier2{
     display: flex;
+    justify-content: space-evenly;
 }
 .calendrier3{
     display: flex;
+    justify-content: space-evenly;
 }
 .calendrier4{
     display: flex;
+    justify-content: space-evenly;
 }
 .calendrier5{
     display: flex;
+    justify-content: space-evenly;
 }
 .jourdesemaine{
     display: flex;
+    justify-content: space-evenly;
 }
 
 /* jour de semaine */
@@ -138,9 +144,32 @@ body{
  order: 7;
 }
 
+/* Calendrier arrangement */
+.calsec{
+    background-color: white;
+    padding: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-top: 10px;
+    border-left: 10px;
+    border-bottom: 10px;
+    border-right: 10px;
+    border-color: black;
+} 
+
+h1{
+    margin-left: 3%;
+    padding: 1%;
+    color: white;
+}
+
 /* ligne 1 */
 #d1{
  order: 1;
+ background-color: white;
+ width: 182;
+ height: 71;
+
 }
 #d2{
  order: 2;
@@ -241,6 +270,10 @@ body{
 
 #d31{
  order: 3;
+}
+
+.divlignevide{
+    padding: 1%;
 }
 
 

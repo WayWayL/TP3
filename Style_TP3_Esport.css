@@ -287,6 +287,17 @@ body{
 .lien{
     color:white;
   }
+  footer{
+    background-color:#242444;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+        
+.bas_page{
+    width: 100%;
+}  
 .Colonne1{
     color: white;
 }
@@ -322,18 +333,6 @@ body{
 em{
     color: white;
     font-size: large;
-}
-        
-footer{
-    background-color:#242444;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-}
-        
-.bas_page{
-    width: 100%;
 }
         
 .subscription{

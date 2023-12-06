@@ -6,131 +6,134 @@ Header{
         padding: 10px;
     }
     
-    .logo {
-        order: 2; /* Pour placer le logo à droite */
+.logo {
+    order: 2; /* Pour placer le logo à droite */
     }
     
-    nav {
-        order: 1; /* Pour placer la navigation à gauche */
+nav {
+    order: 1; /* Pour placer la navigation à gauche */
     }
     
-    nav img {
-        margin-right: 10px; /* Espacement entre les icônes */
+nav img {
+    margin-right: 10px; /* Espacement entre les icônes */
     }
 
-    body{
-        background-color: #082050;
+body{
+    background-color: #082050;
     }
-    section{
-        background-color: white;
+section{
+    background-color: white;
     }
-    h1{
-        text-align: center;
-        color: #242444;
+h1{
+    text-align: center;
+    color: #242444;
     }
-    h2{
-        text-align: center;
-        color: #242444;
+h2{
+    text-align: center;
+    color: #242444;
     }
-    p{
-        text-align:left;
-        color: #676b73;
-        font-size: larger;
+p{
+    text-align:left;
+    color: #676b73;
+    font-size: larger;
     }
-   .container{
+.container{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 20px;
     justify-content:space-around;
    }
-   .Colonne1{
+   /*Pied de page*/
+footer{
+    background-color:#242444;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.bas_page{
+    width: 100%;
+}
+
+.Colonne1{
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content:space-around;
    }
-   .Colonne2{
+.Colonne2{
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
    }
-   .Colonne3{
+.Colonne3{
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
    }
-   .Colonne4{
+.Colonne4{
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
    }
-   .Colonne5{
+.Colonne5{
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
    }
-   .Reseaux{
+.Reseaux{
     display:flex;
     flex-direction:row;
     flex-wrap: wrap;
    }
    
-   .Reseau {
+.Reseau {
     margin-right: 10px; /* Ajoute une marge entre les icônes */
   }
-  .lien{
+.lien{
     color:white;
   }
-   .Colonne1{
+.Colonne1{
     color: white;
    }
-   .Colonne2{
+.Colonne2{
     color: white;
    }
-   .Colonne3{
+.Colonne3{
     color: white;
    }
-   .Colonne4{
+.Colonne4{
     color: white;
    }
-   .Colonne5{
+.Colonne5{
     color: white;
    }
-    .Nom{
-        background-color: #009FD1;
-        width: 345px; 
-        height: 399px;
+.Nom{
+    background-color: #009FD1;
+    width: 345px; 
+    height: 399px;
     }
-    .Presentation {
-        border-collapse: collapse;
-        text-align: center;
-        width: 100%;
+.Presentation {
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
     }
-    em{
-        color: white;
-        font-size: large;
+em{
+    color: white;
+    font-size: large;
     }
-    footer{
-        background-color:#242444;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px;
+    
+.subscription {
+    max-width: 600px;
+    margin: 0 auto;
     }
-    .bas_page{
-        width: 100%;
-    }
-    .subscription {
-        max-width: 600px;
-        margin: 0 auto;
+      
+.subscription h3 {
+    margin-bottom: 10px;
       }
       
-      .subscription h3 {
-        margin-bottom: 10px;
-      }
-      
-      input[type="email"] {
+ input[type="email"] {
         width: 70%;
         padding: 8px;
         border-radius: 5px;
@@ -138,7 +141,7 @@ Header{
         margin-right: 10px;
       }
       
-      button {
+button {
         padding: 8px 20px;
         background-color: #7fb380;
         color: white;
@@ -147,6 +150,6 @@ Header{
         cursor: pointer;
       }
       
-      button:hover {
+button:hover {
         background-color: #45a049;
       }

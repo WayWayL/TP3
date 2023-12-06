@@ -284,6 +284,9 @@ body{
    .Reseau {
     margin-right: 10px; /* Ajoute une marge entre les icônes */
 }
+.lien{
+    color:white;
+  }
 .Colonne1{
     color: white;
 }

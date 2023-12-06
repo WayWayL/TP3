@@ -34,15 +34,20 @@ body{
 
 }
 
+h1{
+    margin-left: 3%;
+    padding: 1%;
+    color: white;
+}
+
 /* image */ 
 .imgheader{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-wrap: nowrap;
     align-items: center;
-    width: 240; 
-    height: 105;
+    width: 100%; 
+    height: 105px;
     transition: transform .1s;
 }
 img:hover{
@@ -51,30 +56,41 @@ img:hover{
     transform: scale(1.5);
 }
 #img1{
- order: 1;
-}
+    order: 1;
+    width: 240px; 
+    height: 105px;
+   }
 #img2{
- order: 2;
-}
+    order: 2;
+    width: 240px; 
+    height: 105px;
+   }
 #img3{
- order: 3;
-}
+    order: 3;
+    width: 240px; 
+    height: 105px;
+   }
 #img4{
- order: 4;
-}
+    order: 4;
+    width: 240px; 
+    height: 105px;
+   }
 #img5{
- order: 5;
-}
+    order: 5;
+    width: 240px; 
+    height: 105px;
+   }
 #img6{
- order: 6;
-}
+    order: 6;
+     width: 240px; 
+    height: 105px;
+   }
 
 /* body */
 .EsportSportbar{   /* bar de selection */
     display: flex;
     background-color: #009FD1;
     color: white;
-    height: 119;
     width: 100%;
     font-size: xx-large;
     flex-wrap: nowrap;
@@ -83,18 +99,13 @@ img:hover{
 }
 #Sport{
     order: 1;
-    width: 446;
-    height: 83;
     justify-content: center;
     justify-content: middle;
-    height: 119;
     width: 720px ;
     font-size: xx-large;
 }
 #Esport{
     order: 2;
-    width: 446;
-    height: 83;
     justify-content: center;
     justify-content: middle;
     height: 119;
@@ -103,151 +114,457 @@ img:hover{
 }
 
 /* CALENDRIER */
-.calendrier1{
+.calendrier{
     display: flex;
-}
-.calendrier2{
-    display: flex;
-}
-.calendrier3{
-    display: flex;
-}
-.calendrier4{
-    display: flex;
-}
-.calendrier5{
-    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: white;
 }
 .jourdesemaine{
     display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-size: large;
 }
+
+/* Calendrier arrangement */
+.calsec{
+    padding: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-top: 10px solid;
+    border-left: 10px solid;
+    border-bottom: 10px solid;
+    border-right: 10px solid;
+    border-color: rgb(44, 15, 159);
+} 
 
 /* jour de semaine */
 #lun{
  order: 1;
+ width: 175px;
+ height: 54px;
+ 
 }
 #mar{
  order: 2;
+ width: 175px;
+ height: 54px;
 }
 #mer{
  order: 3;
+ width: 175px;
+ height: 54px;
 }
 #jeu{
  order: 4;
+ width: 175px;
+ height: 54px;
 }
 #ven{
  order: 5;
+ width: 175px;
+ height: 54px;
 }
 #sam{
  order: 6;
+ width: 175px;
+ height: 54px;
 }
 #dim{
  order: 7;
+ width: 175px;
+ height: 54px;
 }
 
 /* ligne 1 */
 #d1{
  order: 1;
+ background-color: #009FD1;
+ width: 182px;
+ height: 71px;
+ border-top: 4px solid;
+ border-left: 4px solid;
+ border-bottom: 4px solid;
+ border-right: 4px solid;
+ border-color: rgb(0, 0, 0);
+ padding-left: 4px;
+
 }
 #d2{
  order: 2;
+ background-color: #009FD1;
+ width: 182px;
+ height: 71px;
+ border-top: 4px solid;
+ border-left: 4px solid;
+ border-bottom: 4px solid;
+ border-right: 4px solid;
+ border-color: rgb(0, 0, 0);
+ padding-left: 4px;
 }
 #d3{
  order: 3;
+ background-color: #009FD1;
+ width: 182px;
+ height: 71px;
+ border-top: 4px solid;
+ border-left: 4px solid;
+ border-bottom: 4px solid;
+ border-right: 4px solid;
+ border-color: rgb(0, 0, 0);
+ padding-left: 4px;
 }
 #d4{
  order: 4;
+ background-color: #009FD1;
+ width: 182px;
+ height: 71px;
+ border-top: 4px solid;
+ border-left: 4px solid;
+ border-bottom: 4px solid;
+ border-right: 4px solid;
+ border-color: rgb(0, 0, 0);
+ padding-left: 4px;
 }
 #d5{
  order: 5;
+ background-color: #009FD1;
+ width: 182px;
+ height: 71px;
+ border-top: 4px solid;
+ border-left: 4px solid;
+ border-bottom: 4px solid;
+ border-right: 4px solid;
+ border-color: rgb(0, 0, 0);
+ padding-left: 4px;
 }
 #d6{
  order: 6;
+ background-color: #009FD1;
+ width: 182px;
+ height: 71px;
+ border-top: 4px solid;
+ border-left: 4px solid;
+ border-bottom: 4px solid;
+ border-right: 4px solid;
+ border-color: rgb(0, 0, 0);
+ padding-left: 4px;
 }
 #d7{
  order: 7;
+ background-color: #009FD1;
+ width: 182px;
+ height: 71px;
+ border-top: 4px solid;
+ border-left: 4px solid;
+ border-bottom: 4px solid;
+ border-right: 4px solid;
+ border-color: rgb(0, 0, 0);
+ padding-left: 4px;
 }
 
 /* ligne 2 */
 #d8{
- order: 1;
+ order: 8;
+ background-color: #009FD1;
+ width: 182px;
+ height: 71px;
+ border-top: 4px solid;
+ border-left: 4px solid;
+ border-bottom: 4px solid;
+ border-right: 4px solid;
+ border-color: rgb(0, 0, 0);
+ padding-left: 4px;
 }
 #d9{
- order: 2;
+ order: 9;
+ background-color: #009FD1;
+ width: 182px;
+ height: 71px;
+ border-top: 4px solid;
+ border-left: 4px solid;
+ border-bottom: 4px solid;
+ border-right: 4px solid;
+ border-color: rgb(0, 0, 0);
+ padding-left: 4px;
 }
 #d10{
- order: 3;
+ order: 10;
+ background-color: #009FD1;
+ width: 182px;
+ height: 71px;
+ border-top: 4px solid;
+ border-left: 4px solid;
+ border-bottom: 4px solid;
+ border-right: 4px solid;
+ border-color: rgb(0, 0, 0);
+ padding-left: 4px;
 }
 #d11{
- order: 4;
+ order: 11;
+ background-color: #009FD1;
+ width: 182px;
+ height: 71px;
+ border-top: 4px solid;
+ border-left: 4px solid;
+ border-bottom: 4px solid;
+ border-right: 4px solid;
+ border-color: rgb(0, 0, 0);
+ padding-left: 4px;
 }
 #d12{
- order: 5;
+ order: 12;
+ background-color: #009FD1;
+ width: 182px;
+ height: 71px;
+ border-top: 4px solid;
+ border-left: 4px solid;
+ border-bottom: 4px solid;
+ border-right: 4px solid;
+ border-color: rgb(0, 0, 0);
+ padding-left: 4px;
 }
 #d13{
- order: 6;
+ order: 13;
+ background-color: #009FD1;
+ width: 182px;
+ height: 71px;
+ border-top: 4px solid;
+ border-left: 4px solid;
+ border-bottom: 4px solid;
+ border-right: 4px solid;
+ border-color: rgb(0, 0, 0);
+ padding-left: 4px;
 }
 #d14{
- order: 7;
+ order: 14;
+ background-color: #009FD1;
+ width: 182px;
+ height: 71px;
+ border-top: 4px solid;
+ border-left: 4px solid;
+ border-bottom: 4px solid;
+ border-right: 4px solid;
+ border-color: rgb(0, 0, 0);
+ padding-left: 4px;
 }
 
 /* ligne 3 */ 
 #d15{
- order: 1;
+ order: 15;
+ background-color: #009FD1;
+ width: 182px;
+ height: 71px;
+ border-top: 4px solid;
+ border-left: 4px solid;
+ border-bottom: 4px solid;
+ border-right: 4px solid;
+ border-color: rgb(0, 0, 0);
+ padding-left: 4px;
 }
 #d16{
- order: 2;
+ order: 16;
+ background-color: #009FD1;
+ width: 182px;
+ height: 71px;
+ border-top: 4px solid;
+ border-left: 4px solid;
+ border-bottom: 4px solid;
+ border-right: 4px solid;
+ border-color: rgb(0, 0, 0);
+ padding-left: 4px;
 }
 #d17{
- order: 3;
+ order: 17;
+ background-color: #009FD1;
+ width: 182px;
+ height: 71px;
+ border-top: 4px solid;
+ border-left: 4px solid;
+ border-bottom: 4px solid;
+ border-right: 4px solid;
+ border-color: rgb(0, 0, 0);
+ padding-left: 4px;
 }
 #d18{
- order: 4;
+ order: 18;
+ background-color: #009FD1;
+ width: 182px;
+ height: 71px;
+ border-top: 4px solid;
+ border-left: 4px solid;
+ border-bottom: 4px solid;
+ border-right: 4px solid;
+ border-color: rgb(0, 0, 0);
+ padding-left: 4px;
 }
 #d19{
- order: 5;
+ order: 19;
+ background-color: #009FD1;
+ width: 182px;
+ height: 71px;
+ border-top: 4px solid;
+ border-left: 4px solid;
+ border-bottom: 4px solid;
+ border-right: 4px solid;
+ border-color: rgb(0, 0, 0);
+ padding-left: 4px;
 }
 #d20{
- order: 6;
+ order: 20;
+ background-color: #009FD1;
+ width: 182px;
+ height: 71px;
+ border-top: 4px solid;
+ border-left: 4px solid;
+ border-bottom: 4px solid;
+ border-right: 4px solid;
+ border-color: rgb(0, 0, 0);
+ padding-left: 4px;
 }
 #d21{
- order: 7;
+ order: 21;
+ background-color: #009FD1;
+ width: 182px;
+ height: 71px;
+ border-top: 4px solid;
+ border-left: 4px solid;
+ border-bottom: 4px solid;
+ border-right: 4px solid;
+ border-color: rgb(0, 0, 0);
+ padding-left: 4px;
 }
 
 /* ligne 4 */
 #d22{
- order: 1;
+ order: 22;
+ background-color: #009FD1;
+ width: 182px;
+ height: 71px;
+ border-top: 4px solid;
+ border-left: 4px solid;
+ border-bottom: 4px solid;
+ border-right: 4px solid;
+ border-color: rgb(0, 0, 0);
+ padding-left: 4px;
 }
 #d23{
- order: 2;
+ order: 23;
+ background-color: #009FD1;
+ width: 182px;
+ height: 71px;
+ border-top: 4px solid;
+ border-left: 4px solid;
+ border-bottom: 4px solid;
+ border-right: 4px solid;
+ border-color: rgb(0, 0, 0);
+ padding-left: 4px;
 }
 #d24{
- order: 3;
+ order: 24;
+ background-color: #009FD1;
+ width: 182px;
+ height: 71px;
+ border-top: 4px solid;
+ border-left: 4px solid;
+ border-bottom: 4px solid;
+ border-right: 4px solid;
+ border-color: rgb(0, 0, 0);
+ padding-left: 4px;
 }
 #d25{
- order: 4;
+ order: 25;
+ background-color: #009FD1;
+ width: 182px;
+ height: 71px;
+ border-top: 4px solid;
+ border-left: 4px solid;
+ border-bottom: 4px solid;
+ border-right: 4px solid;
+ border-color: rgb(0, 0, 0);
+ padding-left: 4px;
 }
 #d26{
- order: 5;
+ order: 26;
+ background-color: #009FD1;
+ width: 182px;
+ height: 71px;
+ border-top: 4px solid;
+ border-left: 4px solid;
+ border-bottom: 4px solid;
+ border-right: 4px solid;
+ border-color: rgb(0, 0, 0);
+ padding-left: 4px;
 }
 #d27{
- order: 6;
+ order: 27;
+ background-color: #009FD1;
+ width: 182px;
+ height: 71px;
+ border-top: 4px solid;
+ border-left: 4px solid;
+ border-bottom: 4px solid;
+ border-right: 4px solid;
+ border-color: rgb(0, 0, 0);
+ padding-left: 4px;
 }
 #d28{
- order: 7;
+ order: 28;
+ background-color: #009FD1;
+ width: 182px;
+ height: 71px;
+ border-top: 4px solid;
+ border-left: 4px solid;
+ border-bottom: 4px solid;
+ border-right: 4px solid;
+ border-color: rgb(0, 0, 0);
+ padding-left: 4px;
 }
 
 /* ligne 5 */
 #d29{
- order: 1;
+ order: 29;
+ background-color: #009FD1;
+ width: 182px;
+ height: 71px;
+ border-top: 4px solid;
+ border-left: 4px solid;
+ border-bottom: 4px solid;
+ border-right: 4px solid;
+ border-color: rgb(0, 0, 0);
+ padding-left: 4px;
 }
 
 #d30{
- order: 2;
+ order: 30;
+ background-color: #009FD1;
+ width: 182px;
+ height: 71px;
+ border-top: 4px solid;
+ border-left: 4px solid;
+ border-bottom: 4px solid;
+ border-right: 4px solid;
+ border-color: rgb(0, 0, 0);
+ padding-left: 4px;
 }
 
 #d31{
- order: 3;
+ order: 31;
+ background-color: #009FD1;
+ width: 182px;
+ height: 71px;
+ border-top: 4px solid;
+ border-left: 4px solid;
+ border-bottom: 4px solid;
+ border-right: 4px solid;
+ border-color: rgb(0, 0, 0);
+ padding-left: 4px;
+}
+
+.divlignevide{
+    padding: 1%;
 }
 
 /* footer */ 

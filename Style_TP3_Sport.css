@@ -31,7 +31,7 @@ nav img {
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
-    width: 100%; 
+    width: 1440px; 
     height: 105px;
     transition: transform .1s;
 }
@@ -74,8 +74,9 @@ img:hover{
 /* body */
 body{
     background-color: #082050;
-    width: auto;
+    width: 1440;
     height: auto;
+
 
     font-family: Tp3Font;
 }

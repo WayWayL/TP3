@@ -116,66 +116,112 @@ img:hover{
 /* CALENDRIER */
 .calendrier{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    color: white;
+}
+.calendrier2{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    color: white;
+}
+.calendrier3{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    color: white;
+}
+.calendrier4{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    color: white;
+}
+.calendrier5{
+    display: flex;
+    flex-wrap: nowrap;
     flex-direction: row;
     color: white;
 }
 .jourdesemaine{
     display: flex;
-    justify-content: center;
     color: white;
     text-align: center;
-    font-size: large;
+    font-size: xx-large;
 }
+
 
 /* Calendrier arrangement */
 .calsec{
     padding: 1%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 3%;
+    margin-right: 3%;
     border-top: 10px solid;
     border-left: 10px solid;
     border-bottom: 10px solid;
     border-right: 10px solid;
-    border-color: rgb(44, 15, 159);
+    border-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.2);
 } 
 
 /* jour de semaine */
 #lun{
  order: 1;
- width: 175px;
- height: 54px;
+ width: 182px;
+ height: 45px;
+ border-left: 4px solid;
+ border-right: 4px solid;
+ border-color: rgba(0, 0, 0, 0);
  
 }
 #mar{
  order: 2;
- width: 175px;
- height: 54px;
+ width: 182px;
+ height: 45px;
+ border-left: 4px solid;
+ border-right: 4px solid;
+ border-color: rgba(0, 0, 0, 0);
 }
 #mer{
  order: 3;
- width: 175px;
- height: 54px;
+ width: 182px;
+ height: 45px;
+ border-left: 4px solid;
+ border-right: 4px solid;
+ border-color: rgba(0, 0, 0, 0);
 }
 #jeu{
  order: 4;
- width: 175px;
- height: 54px;
+ width: 182px;
+ height: 45px;
+ border-left: 4px solid;
+ border-right: 4px solid;
+ border-color: rgba(0, 0, 0, 0);
 }
 #ven{
  order: 5;
- width: 175px;
- height: 54px;
+ width: 182px;
+ height: 45px;
+ border-left: 4px solid;
+ border-right: 4px solid;
+ border-color: rgba(0, 0, 0, 0);
 }
 #sam{
  order: 6;
- width: 175px;
- height: 54px;
+ width: 182px;
+ height: 45px;
+ border-left: 4px solid;
+ border-right: 4px solid;
+ border-color: rgba(0, 0, 0, 0);
 }
 #dim{
  order: 7;
- width: 175px;
- height: 54px;
+ width: 182px;
+ height: 45px;
+ border-left: 4px solid;
+ border-right: 4px solid;
+ border-color: rgba(0, 0, 0, 0);
 }
 
 /* ligne 1 */
@@ -267,7 +313,7 @@ img:hover{
 
 /* ligne 2 */
 #d8{
- order: 8;
+ order: 1;
  background-color: #009FD1;
  width: 182px;
  height: 71px;
@@ -279,7 +325,7 @@ img:hover{
  padding-left: 4px;
 }
 #d9{
- order: 9;
+ order: 2;
  background-color: #009FD1;
  width: 182px;
  height: 71px;
@@ -291,7 +337,7 @@ img:hover{
  padding-left: 4px;
 }
 #d10{
- order: 10;
+ order: 3;
  background-color: #009FD1;
  width: 182px;
  height: 71px;
@@ -303,7 +349,7 @@ img:hover{
  padding-left: 4px;
 }
 #d11{
- order: 11;
+ order: 4;
  background-color: #009FD1;
  width: 182px;
  height: 71px;
@@ -315,7 +361,7 @@ img:hover{
  padding-left: 4px;
 }
 #d12{
- order: 12;
+ order: 5;
  background-color: #009FD1;
  width: 182px;
  height: 71px;
@@ -327,7 +373,7 @@ img:hover{
  padding-left: 4px;
 }
 #d13{
- order: 13;
+ order: 6;
  background-color: #009FD1;
  width: 182px;
  height: 71px;
@@ -339,7 +385,7 @@ img:hover{
  padding-left: 4px;
 }
 #d14{
- order: 14;
+ order: 7;
  background-color: #009FD1;
  width: 182px;
  height: 71px;
@@ -353,7 +399,7 @@ img:hover{
 
 /* ligne 3 */ 
 #d15{
- order: 15;
+ order: 1;
  background-color: #009FD1;
  width: 182px;
  height: 71px;
@@ -365,7 +411,7 @@ img:hover{
  padding-left: 4px;
 }
 #d16{
- order: 16;
+ order: 2;
  background-color: #009FD1;
  width: 182px;
  height: 71px;
@@ -377,7 +423,7 @@ img:hover{
  padding-left: 4px;
 }
 #d17{
- order: 17;
+ order: 3;
  background-color: #009FD1;
  width: 182px;
  height: 71px;
@@ -389,7 +435,7 @@ img:hover{
  padding-left: 4px;
 }
 #d18{
- order: 18;
+ order: 4;
  background-color: #009FD1;
  width: 182px;
  height: 71px;
@@ -401,7 +447,7 @@ img:hover{
  padding-left: 4px;
 }
 #d19{
- order: 19;
+ order: 5;
  background-color: #009FD1;
  width: 182px;
  height: 71px;
@@ -413,7 +459,7 @@ img:hover{
  padding-left: 4px;
 }
 #d20{
- order: 20;
+ order: 6;
  background-color: #009FD1;
  width: 182px;
  height: 71px;
@@ -425,7 +471,7 @@ img:hover{
  padding-left: 4px;
 }
 #d21{
- order: 21;
+ order: 7;
  background-color: #009FD1;
  width: 182px;
  height: 71px;
@@ -439,7 +485,7 @@ img:hover{
 
 /* ligne 4 */
 #d22{
- order: 22;
+ order: 1;
  background-color: #009FD1;
  width: 182px;
  height: 71px;
@@ -451,7 +497,7 @@ img:hover{
  padding-left: 4px;
 }
 #d23{
- order: 23;
+ order: 2;
  background-color: #009FD1;
  width: 182px;
  height: 71px;
@@ -463,7 +509,7 @@ img:hover{
  padding-left: 4px;
 }
 #d24{
- order: 24;
+ order: 3;
  background-color: #009FD1;
  width: 182px;
  height: 71px;
@@ -475,7 +521,7 @@ img:hover{
  padding-left: 4px;
 }
 #d25{
- order: 25;
+ order: 4;
  background-color: #009FD1;
  width: 182px;
  height: 71px;
@@ -487,7 +533,7 @@ img:hover{
  padding-left: 4px;
 }
 #d26{
- order: 26;
+ order: 5;
  background-color: #009FD1;
  width: 182px;
  height: 71px;
@@ -499,7 +545,7 @@ img:hover{
  padding-left: 4px;
 }
 #d27{
- order: 27;
+ order: 6;
  background-color: #009FD1;
  width: 182px;
  height: 71px;
@@ -511,7 +557,7 @@ img:hover{
  padding-left: 4px;
 }
 #d28{
- order: 28;
+ order: 7;
  background-color: #009FD1;
  width: 182px;
  height: 71px;
@@ -525,7 +571,7 @@ img:hover{
 
 /* ligne 5 */
 #d29{
- order: 29;
+ order: 1;
  background-color: #009FD1;
  width: 182px;
  height: 71px;
@@ -538,7 +584,7 @@ img:hover{
 }
 
 #d30{
- order: 30;
+ order: 2;
  background-color: #009FD1;
  width: 182px;
  height: 71px;
@@ -551,7 +597,7 @@ img:hover{
 }
 
 #d31{
- order: 31;
+ order: 3;
  background-color: #009FD1;
  width: 182px;
  height: 71px;

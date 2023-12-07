@@ -167,62 +167,69 @@ img:hover{
 
 /* jour de semaine */
 #lun{
- order: 1;
- width: 182px;
- height: 45px;
- border-left: 4px solid;
- border-right: 4px solid;
- border-color: rgba(0, 0, 0, 0);
- 
+    order: 1;
+    width: 182px;
+    height: 45px;
+    border-left: 4px solid;
+    border-right: 4px solid;
+    border-color: rgba(0, 0, 0, 0);
+    
 }
+
 #mar{
- order: 2;
- width: 182px;
- height: 45px;
- border-left: 4px solid;
- border-right: 4px solid;
- border-color: rgba(0, 0, 0, 0);
+    order: 2;
+    width: 182px;
+    height: 45px;
+    border-left: 4px solid;
+    border-right: 4px solid;
+    border-color: rgba(0, 0, 0, 0);
 }
+
 #mer{
- order: 3;
- width: 182px;
- height: 45px;
- border-left: 4px solid;
- border-right: 4px solid;
- border-color: rgba(0, 0, 0, 0);
+    order: 3;
+    width: 182px;
+    height: 45px;
+    border-left: 4px solid;
+    border-right: 4px solid;
+    border-color: rgba(0, 0, 0, 0);
 }
+
 #jeu{
- order: 4;
- width: 182px;
- height: 45px;
- border-left: 4px solid;
- border-right: 4px solid;
- border-color: rgba(0, 0, 0, 0);
+    order: 4;
+    width: 182px;
+    height: 45px;
+    border-left: 4px solid;
+    border-right: 4px solid;
+    border-color: rgba(0, 0, 0, 0);
 }
+   
 #ven{
- order: 5;
- width: 182px;
- height: 45px;
- border-left: 4px solid;
- border-right: 4px solid;
- border-color: rgba(0, 0, 0, 0);
+    order: 5;
+    width: 182px;
+    height: 45px;
+    border-left: 4px solid;
+    border-right: 4px solid;
+    border-color: rgba(0, 0, 0, 0);
 }
-#sam{
- order: 6;
- width: 182px;
- height: 45px;
- border-left: 4px solid;
- border-right: 4px solid;
- border-color: rgba(0, 0, 0, 0);
+
+   #sam{
+    order: 6;
+    width: 182px;
+    height: 45px;
+    border-left: 4px solid;
+    border-right: 4px solid;
+    border-color: rgba(0, 0, 0, 0);
 }
+
 #dim{
- order: 7;
- width: 182px;
- height: 45px;
- border-left: 4px solid;
- border-right: 4px solid;
- border-color: rgba(0, 0, 0, 0);
+    order: 7;
+    width: 182px;
+    height: 45px;
+    border-left: 4px solid;
+    border-right: 4px solid;
+    border-color: rgba(0, 0, 0, 0);
 }
+
 
 /* ligne 1 */
 #d1{

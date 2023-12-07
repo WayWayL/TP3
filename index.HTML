@@ -27,8 +27,20 @@
             </nav>
     </header>  <!--arranger dans le style et copier/coller dans les autres pages-->
     <section class="imgheader">
-            <img src="Image/Page_image/MLBbaseball.jpg" alt="League Majeur de Baseball" id="img1" width="240" height="105" >
-            <img src="Image/Page_image/StreetFighter6.png" alt="Street Fighter 6" id="img2" width="240" height="105" >
+            <img src="Image/Page_image/MLBbaseball.jpg" alt="League Majeur de Baseball" id="img1" width="240" height="105" id="monImage" onclick="toggleMusique()" style="cursor: pointer;" >
+            <audio id="maMusique" src="Audio/fight-142564.mp3"></audio>
+            <script>
+                var musique = document.getElementById("maMusique");
+                
+                function toggleMusique() {
+                  if (musique.paused) {
+                    musique.play(); // Jouer la musique si elle est en pause
+                  } else {
+                    musique.pause(); // Mettre en pause si la musique est en train de jouer
+                  }
+                }
+                </script>
+           
             <img src="Image/Page_image/NHLhockey.jpg" alt="League Nationnal de Hockey" id="img3" width="240" height="105" >
             <img src="Image/Page_image/Valorantcard.jpg" alt="Valorant" id="img4" width="240" height="105" >
             <img src="Image/Page_image/NBA baslet.jpg" alt="Association Nationnal de Basketball" id="img5" width="240" height="105" >

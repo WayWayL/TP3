@@ -41,6 +41,12 @@ nav{
     align-items: center;
     width: 240; 
     height: 105;
+    transition: transform .1s;
+}
+img:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
 }
 #img1{
  order: 1;
